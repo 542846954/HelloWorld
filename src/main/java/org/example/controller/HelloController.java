@@ -14,4 +14,9 @@ public class HelloController {
     public String test(){
         return "test!";
     }
+
+    @RequestMapping("/xiaobai")
+    public String xiaobai(){
+        return "xiaobai";
+    }
 }
