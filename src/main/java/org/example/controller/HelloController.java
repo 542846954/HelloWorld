@@ -24,4 +24,9 @@ public class HelloController {
     public String xiaohei(){
         return "xiaohei";
     }
+
+    @RequestMapping("/ceshi")
+    public String ceshi(){
+        return "xiaohei";
+    }
 }
