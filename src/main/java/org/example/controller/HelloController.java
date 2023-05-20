@@ -25,6 +25,13 @@ public class HelloController {
         return "xiaohei";
     }
 
+<<<<<<< HEAD
     /*在master分支修改的内容
     * master分支*/
+=======
+    @RequestMapping("/ceshi")
+    public String ceshi(){
+        return "xiaohei";
+    }
+>>>>>>> 9e686266162b58f4757bbfa24e37cdbaf0c8e3f0
 }
