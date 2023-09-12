@@ -14,4 +14,22 @@ public class HelloController {
     public String test(){
         return "test!";
     }
+
+    @RequestMapping("/xiaobai")
+    public String xiaobai(){
+        return "xiaobai";
+    }
+
+    @RequestMapping("/xiaohei")
+    public String xiaohei(){
+        return "xiaohei";
+    }
+
+    /*在master分支修改的内容
+    * master分支*/
+    @RequestMapping("/ceshi")
+    public String ceshi(){
+        return "xiaohei";
+    }
+    /*b1分支新增的内容*/
 }
